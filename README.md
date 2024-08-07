@@ -12,6 +12,8 @@ git clone https://github.com/techcat-dev/Microsoft-Fonts-Installer-Linux.git
 
 cd Microsoft-Fonts-Installer-Linux
 
+chmod a+x install.sh
+
 sudo ./install.sh
 
 ___________________________________________________________________________
