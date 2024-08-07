@@ -2,12 +2,20 @@ Easy to use portable bash script that installs Microsoft Fonts on Linux Distros.
 (Root Access Required)
 
 REQUIRED PACKAGES:
-wget, unzip
+wget, unzip, git
+
+___________________________________________________________________________
 
 Install Guide:
+
 git clone https://github.com/techcat-dev/Microsoft-Fonts-Installer-Linux.git
+
 cd Microsoft-Fonts-Installer-Linux
+
 sudo ./install.sh
+
+___________________________________________________________________________
+
 
 the script will automatically download font files needed. No user input is required.
 
