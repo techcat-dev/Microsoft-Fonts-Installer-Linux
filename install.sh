@@ -20,7 +20,7 @@ echo "TechCat's Microsoft Fonts Installer For Linux"
 echo ""
 echo "Please choose a downloads mirror:"
 echo ""
-echo "1. Archive.org Mirror (More Reliable) <--- Default"
+echo "1. Archive.org Mirror <--- Default"
 echo ""
 echo "Your Selection: " 
 
