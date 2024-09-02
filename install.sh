@@ -20,29 +20,13 @@ echo "TechCat's Microsoft Fonts Installer For Linux"
 echo ""
 echo "Please choose a downloads mirror:"
 echo ""
-echo "1. TechCat's Mirror (Faster)"
-echo "2. Archive.org Mirror (More Reliable) <--- Default"
+echo "1. Archive.org Mirror (More Reliable) <--- Default"
 echo ""
 echo "Your Selection: " 
 
 read VAR
 
-if [[ $VAR -eq 1 ]]; then
-clear
-echo "TechCat's Mirror Selected."
-sleep 3
-clear
-wget http://dl.techcat.dev/Misc/Microsoft-Fonts-Linux-TTF.zip
-unzip Microsoft-Fonts-Linux-TTF.zip
-cd Microsoft-Fonts-Linux-TTF
-./install-fonts-linux.sh
-cd ..
-rm -rf Microsoft-Fonts-Linux-TTF
-rm -rf Microsoft-Fonts-Linux-TTF.zip
-sleep 5
-clear
-
-elif [[ $VAR -eq 2 ]]; then
+elif [[ $VAR -eq 1 ]]; then
 clear
 echo "Archive.org Mirror Selected."
 sleep 3 
