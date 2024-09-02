@@ -26,7 +26,7 @@ echo "Your Selection: "
 
 read VAR
 
-elif [[ $VAR -eq 1 ]]; then
+if [[ $VAR -eq 1 ]]; then
 clear
 echo "Archive.org Mirror Selected."
 sleep 3 
